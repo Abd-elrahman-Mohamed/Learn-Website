@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: linear-gradient(#000,#333);
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 40px;
+    margin: 10px 0 0 0;
+    transition: 1s;
+}
+
+.logo:hover {
+    width: 55px;
+    margin: 10px 30px 0 0;
+}
+
+ul li {
+    display: inline-block; 
+    list-style: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: .6s;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text {
+    width: 40%;
+    color: white;
+}
+
+.content .text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.content .text h2 span{
+    transition: .5s;
+}
+
+
+.content .text p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.content .text a {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 8px 15px;
+    color: black;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.content .text a:hover {
+    font-size: 20px;
+}
+
+.content .image {
+    width: 30%;
+}
+
+.content .image img {
+    width: 180px;
+}
+
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform:translateX(-50%);
+    border:  dotted #eee ;
+    border-width: 0px 0px 5px;
+    padding: 10px;
+    transition: .6s;
+}
+
+.icons:hover {
+    border-width: 0 0 10px;
+    border-color: rgba(255, 255, 255, 0.225);
+}
+
+.icons img {
+    width: 40px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    transform: scale(1.2)
+}
+
+ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.content .text h2:hover  .Max {
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+
+
+.content .text h2 .Max .MMM{
+    transition: 1.5s;
+}
+
+.content .text h2 .Max .AAA{
+    transition: 2s;
+}
+
+.content .text h2 .Max .XXX{
+    transition: 2.5s;
+}
+
+.content .text h2 .Max:hover  .MMM{
+    color: #8e8837;
+}
+
+.content .text h2 .Max:hover  .AAA{
+    color: #8e8837;
+}
+
+.content .text h2 .Max:hover  .XXX{
+    color: #8e8837;
+}
+
+.text p {
+    transition: 1s;
+}
+
+.text p:hover {
+    color:rgb(190, 203, 95);
+    letter-spacing: 2px;
+}
+
+.content .image img {
+    transition: 1s;
+}
+
+.content .image img:hover {
+    transform: scale(1.1);
+}
